@@ -191,7 +191,7 @@ nav button {
 /* GENERAL POST  */
 
 .post__thumbnail {
-  border-radius: var(--card-border-radius-5);
+  border-radius: var(--card-border-radius-5) 0;
   border: 1rem solid var(--color-gray-900);
   overflow: hidden;
   margin-bottom: 1.6rem;
@@ -460,7 +460,7 @@ select {
   color: var(--color-primary);
 }
 
-/************************* MEDIA QUERIES (MEDIUM DEVİCES) *************************/
+/** MEDIA QUERIES (MEDIUM DEVİCES) **/
 
 @media screen and (max-width: 1024px) {
   /* GENERAL */
