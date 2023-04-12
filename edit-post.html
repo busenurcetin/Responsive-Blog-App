@@ -52,27 +52,32 @@
 
     <section class="form__section">
       <div class="container form__section-container">
-        <h2>Add User</h2>
-        <div class="alert__message error">
-          <p>This is an error message</p>
-        </div>
+        <h2>Edit Post</h2>
 
         <form action="" enctype="multipart/form-data">
-          <input type="text" placeholder="First Name" />
-          <input type="text" placeholder="Last Name" />
-          <input type="text" placeholder="UserName" />
-          <input type="email" placeholder="Email" />
-          <input type="password" placeholder="Create Password" />
-          <input type="password" placeholder="Confirm Password" />
+          <input type="text" placeholder="Title" />
           <select>
-            <option value="0">Author</option>
-            <option value="1">Admin</option>
+            <option value="1">Travel</option>
+            <option value="1">Art</option>
+            <option value="1">Science and Technology</option>
+            <option value="1">Travel</option>
+            <option value="1">Travel</option>
+            <option value="1">Travel</option>
           </select>
-          <div class="form__control">
-            <label for="avatar">User Avatar</label>
-            <input type="file" id="avatar" />
+
+          <textarea rows="10" placeholder="Body"></textarea>
+
+          <div class="form__control inline">
+            <input type="checkbox" id="is__featured" checked />
+            <label for="is__featured">Featured</label>
           </div>
-          <button type="submit" class="btn">Add User</button>
+
+          <div class="form__control">
+            <label for="thumbnail"> Change Thumbnail </label>
+            <input type="file" id="thumbnail" />
+          </div>
+
+          <button class="btn" type="submit">Update Post</button>
         </form>
       </div>
     </section>

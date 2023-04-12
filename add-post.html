@@ -50,99 +50,100 @@
       </div>
     </nav>
 
-
-
     <section class="form__section">
       <div class="container form__section-container">
-        <h2>Add Category</h2>
+        <h2>Add Post</h2>
         <div class="alert__message error">
           <p>This is an error message</p>
         </div>
-        <form action="">
+
+        <form action="" enctype="multipart/form-data">
           <input type="text" placeholder="Title" />
           <select>
             <option value="1">Travel</option>
             <option value="1">Art</option>
-            <option value="1">Science & Technology</option>
+            <option value="1">Science and Technology</option>
             <option value="1">Travel</option>
             <option value="1">Travel</option>
             <option value="1">Travel</option>
           </select>
+
           <textarea rows="10" placeholder="Body"></textarea>
-          <div class="form__control">
-            <input type="checkbox" id="is_featured">
-            <label for="is_featured" checked> Featured </label>
+
+          <div class="form__control inline">
+            <input type="checkbox" id="is__featured" checked />
+            <label for="is__featured">Featured</label>
           </div>
+
           <div class="form__control">
             <label for="thumbnail"> Add Thumbnail </label>
-            <input type="file" id="thumbnail">
+            <input type="file" id="thumbnail" />
           </div>
-          <button type="submit" class="btn">Add Post</button>
+
+          <button class="btn" type="submit">Add Post</button>
         </form>
       </div>
     </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <div class="footer__socials">
+        <a href="YT" target="_blank"> <i class="uil uil-youtube"></i></a>
+        <a href="YT" target="_blank"> <i class="uil uil-facebook-f"></i></a>
+        <a href="YT" target="_blank"> <i class="uil uil-twitter"></i></a>
+        <a href="YT" target="_blank"> <i class="uil uil-instagram-alt"></i></a>
+        <a href="YT" target="_blank"> <i class="uil uil-linkedin"></i></a>
+      </div>
+      <div class="container footer__container">
+        <article>
+          <h4>Categories</h4>
+          <ul>
+            <li><a href=""> Art </a></li>
+            <li><a href=""> Wild Life </a></li>
+            <li><a href=""> Travel </a></li>
+            <li><a href=""> Science & Technology </a></li>
+            <li><a href=""> Food </a></li>
+            <li><a href=""> Music </a></li>
+          </ul>
+        </article>
+        <article>
+          <h4>Support</h4>
+          <ul>
+            <li><a href=""> Online Support </a></li>
+            <li><a href=""> Call Numbers </a></li>
+            <li><a href=""> Emails </a></li>
+            <li><a href=""> Social Support </a></li>
+            <li><a href=""> Location </a></li>
+          </ul>
+        </article>
+        <article>
+          <h4>Blog</h4>
+          <ul>
+            <li><a href=""> Safety </a></li>
+            <li><a href=""> Repair </a></li>
+            <li><a href=""> Travel </a></li>
+            <li><a href=""> Recent </a></li>
+            <li><a href=""> Popular </a></li>
+            <li><a href=""> Categories </a></li>
+          </ul>
+        </article>
+        <article>
+          <h4>Permalinks</h4>
+          <ul>
+            <li><a href=""> Home </a></li>
+            <li><a href=""> Blog </a></li>
+            <li><a href=""> About </a></li>
+            <li><a href=""> Services </a></li>
+            <li><a href=""> Contact </a></li>
+          </ul>
+        </article>
+      </div>
+      <div class="footer__copyright">
+        <small> Copyright &copy; 2023 Buse Nur Çetin & Ali Durna </small>
+      </div>
+    </footer>
+
+    <script src="./app.js"></script>
   </body>
-
-
-   <!-- FOOTER -->
-
-   <footer>
-    <div class="footer__socials">
-      <a href="YT" target="_blank"> <i class="uil uil-youtube"></i></a>
-      <a href="YT" target="_blank"> <i class="uil uil-facebook-f"></i></a>
-      <a href="YT" target="_blank"> <i class="uil uil-twitter"></i></a>
-      <a href="YT" target="_blank"> <i class="uil uil-instagram-alt"></i></a>
-      <a href="YT" target="_blank"> <i class="uil uil-linkedin"></i></a>
-    </div>
-    <div class="container footer__container">
-      <article>
-        <h4>Categories</h4>
-        <ul>
-          <li><a href=""> Art </a></li>
-          <li><a href=""> Wild Life </a></li>
-          <li><a href=""> Travel </a></li>
-          <li><a href=""> Science & Technology </a></li>
-          <li><a href=""> Food </a></li>
-          <li><a href=""> Music </a></li>
-        </ul>
-      </article>
-      <article>
-        <h4>Support</h4>
-        <ul>
-          <li><a href=""> Online Support </a></li>
-          <li><a href=""> Call Numbers </a></li>
-          <li><a href=""> Emails </a></li>
-          <li><a href=""> Social Support </a></li>
-          <li><a href=""> Location </a></li>
-        </ul>
-      </article>
-      <article>
-        <h4>Blog</h4>
-        <ul>
-          <li><a href=""> Safety </a></li>
-          <li><a href=""> Repair </a></li>
-          <li><a href=""> Travel </a></li>
-          <li><a href=""> Recent </a></li>
-          <li><a href=""> Popular </a></li>
-          <li><a href=""> Categories </a></li>
-        </ul>
-      </article>
-      <article>
-        <h4>Permalinks</h4>
-        <ul>
-          <li><a href=""> Home </a></li>
-          <li><a href=""> Blog </a></li>
-          <li><a href=""> About </a></li>
-          <li><a href=""> Services </a></li>
-          <li><a href=""> Contact </a></li>
-        </ul>
-      </article>
-    </div>
-    <div class="footer__copyright">
-      <small> Copyright &copy; 2023 Buse Nur Çetin & Ali Durna </small>
-    </div>
-  </footer>
-
-  <script src="./app.js"></script>
-</body>
 </html>
