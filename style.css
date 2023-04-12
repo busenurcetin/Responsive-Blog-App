@@ -1,9 +1,9 @@
 :root {
   --color-primary: #6f6af8;
-  --color-primary-light: hsla(242, 86%, 64%, 0.18);
+  --color-primary-light: hsl(242, 86%, 64%, 0.18);
   --color-primary-variant: #5854c7;
   --color-red: #da0f3f;
-  --color-red-light: hsl(346, 87%, 46, 15%);
+  --color-red-light: hsla(346, 86%, 43%, 0.15);
   --color-green: #00c476;
   --color-green-light: hsl(156, 100%, 38%, 15%);
   --color-gray-900: #1e1e66;
